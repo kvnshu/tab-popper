@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Popper",
+  "version": "1.0",
+  "description": "Pop the current tab into a new window.",
+  "permissions": ["tabs", "commands"],
+  "action": {
+    "default_icon": "thumbtack.png",
+    "default_title": "Pop tab into new window"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
